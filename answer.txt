@@ -1,2 +1,7 @@
 1-val ile var arasındaki fark nedir?
 val'a atılan değerler değiştirilemez, var'a atılan değerler değiştirilebilir.
+
+2-Bir var değişkeni val gibi davranmasını nasıl sağlayabiliriz val kelimesini kullanmadan? Bunu neden yapmak isteriz? Örnek bir senaryo verin.
+
+Bir var değişkeninin val gibi davranmasını set ve get fonksiyonları ile sağlayabiliriz.
+
