@@ -1,0 +1,2 @@
+1-val ile var arasındaki fark nedir?
+val'a atılan değerler değiştirilemez, var'a atılan değerler değiştirilebilir.
