@@ -5,3 +5,16 @@ val'a atılan değerler değiştirilemez, var'a atılan değerler değiştirileb
 
 Bir var değişkeninin val gibi davranmasını set ve get fonksiyonları ile sağlayabiliriz.
 
+
+3-"Değişmez" (Immutable) ve "Salt Okunur" (ReadOnly) kavramlarını açıklayın. val değişkenler neden aslında "değişmez" değil de "salt okunur" olarak açıklanmalıdır?
+
+Immutable= Bir değerin atandığında değiştirilemeyeceği anlamına gelir.
+ReadOnly= Bir değişkenin sadece okunabilir olduğunu ifade eder.Yani sadece değerini alabilirsiniz,ancak yeniden atama yapamazsınız.Kotlinde
+val ile atanılan değişkenler sadece 1 kez atanabilir ve sadece okunabilir olarak kabul edilir.
+
+Neden değişmez değil de salt okunur olarak açıklanmalıdır. Val değişkeninin kendisi değişmzedir . Ancak referans ettiği nesnenin içindeki değerler değişebilir. ondan dolayı.
+Örneğin  val list=mutableListOf(1,2,3)
+list.add(4) // Bu mümkündür çünkü nesnenin içeriği değişiyor.
+
+
+
