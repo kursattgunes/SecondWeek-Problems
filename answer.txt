@@ -17,4 +17,7 @@ Neden değişmez değil de salt okunur olarak açıklanmalıdır. Val değişken
 list.add(4) // Bu mümkündür çünkü nesnenin içeriği değişiyor.
 
 
+4-"Tip Çıkarımı" (Type inference) kavramını açıklayın. Hangi durumlarda tip belirtmek kesin olarak gereklidir?
+değişken ve ifadelerin tipini otomatik olarak idenin belirlemesi ve anlaması. 
+
 
