@@ -20,4 +20,10 @@ list.add(4) // Bu mümkündür çünkü nesnenin içeriği değişiyor.
 4-"Tip Çıkarımı" (Type inference) kavramını açıklayın. Hangi durumlarda tip belirtmek kesin olarak gereklidir?
 değişken ve ifadelerin tipini otomatik olarak idenin belirlemesi ve anlaması. 
 
+5-"Tip Güvenliği" (Type Safety) kavramını açıklayın.
+
+bir programlama dilinde bir değişkenin tipi belirlendikten sonra (örneğin, bir integer, string veya boolean gibi), 
+o değişkenin sadece belirlenen tip ile ilişkilendirilmiş işlemlerde kullanılmasına izin verilir. 
+
+
 
