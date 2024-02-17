@@ -34,6 +34,11 @@ Bir değişkeni nullable yapabilmek için sonuna ?. işareti koymalıyız.
 "Null Güvenliği" (Null Safety), bir programda değeri olmayan veya atanmamış bir referansın (null) neden olduğu hataları önlemeye yönelik bir programlama kavramıdır
 
 
+8-İlkel bir değişkenin nullable olması ile null değer alamaması arasında bellek yönetimi açısından nasıl farklar vardır?
+
+Nullable olması , hem ilkel değişkenleri hem de nul değerleri kapsayacağından dolayı dahaf azla yer tutar bellekte. Null değer alamamasında da alamayacağı için
+sadece ilkel değerleri(primitive) alacağı için daha az yer kaplar.
+
 
 
 
