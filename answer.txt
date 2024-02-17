@@ -29,6 +29,12 @@ o değişkenin sadece belirlenen tip ile ilişkilendirilmiş işlemlerde kullan�
 
 Bir değişkeni nullable yapabilmek için sonuna ?. işareti koymalıyız.
 
+7-"Null Güvenliği" (Null Safety) kavramını açıklayın.
+
+"Null Güvenliği" (Null Safety), bir programda değeri olmayan veya atanmamış bir referansın (null) neden olduğu hataları önlemeye yönelik bir programlama kavramıdır
+
+
+
 
 
 
