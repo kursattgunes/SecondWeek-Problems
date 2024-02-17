@@ -39,6 +39,11 @@ Bir değişkeni nullable yapabilmek için sonuna ?. işareti koymalıyız.
 Nullable olması , hem ilkel değişkenleri hem de nul değerleri kapsayacağından dolayı dahaf azla yer tutar bellekte. Null değer alamamasında da alamayacağı için
 sadece ilkel değerleri(primitive) alacağı için daha az yer kaplar.
 
+9-Nullable bir değişkenin bir değere sahip olması ile null olması arasında bellek yönetimi açısından nasıl bir fark vardır? Null değer almış bir değişken bellekte yer kaplamaz diyebilir miyiz?
+Nullable olması , hem ilkel değişkenleri hem de nul değerleri kapsayacağından dolayı dahaf azla yer tutar bellekte. Null değer alamamasında da alamayacağı için
+sadece ilkel değerleri(primitive) alacağı için daha az yer kaplar.Yani yer kaplamaz diyemeyiz.
+
+
 
 
 
