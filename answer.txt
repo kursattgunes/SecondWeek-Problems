@@ -43,6 +43,13 @@ sadece ilkel değerleri(primitive) alacağı için daha az yer kaplar.
 Nullable olması , hem ilkel değişkenleri hem de nul değerleri kapsayacağından dolayı dahaf azla yer tutar bellekte. Null değer alamamasında da alamayacağı için
 sadece ilkel değerleri(primitive) alacağı için daha az yer kaplar.Yani yer kaplamaz diyemeyiz.
 
+10-Nullable bir değişkenle çalışırken hangi operatörleri kullanırız? Bu operatörlerin kullanım farkları nelerdir? Hangisini ne zaman kullanmak daha anlamlıdır?
+
+(?.) operatörü = Bu operatör değerin nullable olacağı anlamına gelir.Değişkenin null olup olmadığına bakar.Hem değişken hem de null olacağı zaman kullanmak daha anlamlıdır.
+(!!.) operatörü = Bu operatör her halükarde çalışır.Yani değişkenin null olup olmadığına bakmaz.Ancak eğer değişken null ise exception fırlatabilir.
+
+
+
 
 
 
