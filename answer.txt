@@ -25,5 +25,10 @@ değişken ve ifadelerin tipini otomatik olarak idenin belirlemesi ve anlaması.
 bir programlama dilinde bir değişkenin tipi belirlendikten sonra (örneğin, bir integer, string veya boolean gibi), 
 o değişkenin sadece belirlenen tip ile ilişkilendirilmiş işlemlerde kullanılmasına izin verilir. 
 
+6-Bir değişkeni nullable yapmak için ne yapmalıyız?
+
+Bir değişkeni nullable yapabilmek için sonuna ?. işareti koymalıyız.
+
+
 
 
